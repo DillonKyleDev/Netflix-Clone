@@ -1,0 +1,373 @@
+.story-background {
+  background-color: black;
+  position: relative;
+}
+
+.main-story-card-container {
+  padding: 70px 45px;
+  max-height: min-content;
+}
+.story-card-container {
+  padding: 0 45px;
+  height: 100%;
+
+}
+
+.content-card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 1150px;
+  height: 100%;
+}
+
+.border-bottom {
+  border-bottom: 0.5rem solid #222;
+  z-index: 5;
+  position: relative;
+}
+.border-bottom-bottom {
+  border-bottom: 0.5rem solid black;
+  position: relative;
+  z-index: 5;
+}
+
+.card-text {
+  padding-top: 130px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+.card-text-padding-left {
+  margin-left: 120px;
+} 
+.card-text-padding-right {
+  padding-right: 45px;
+}
+
+.animation-container {
+  min-width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  z-index: 0;
+  margin: -4rem 0;
+}
+
+.stranger-things-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg");
+  background-position: center;
+  background-size: 115%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  width: 80%;
+  height: 100%;
+  left: -100px;
+}
+
+.stranger-things-container-small {
+  margin-bottom: -2rem;
+  overflow: hidden;
+}
+
+.download-bar {
+  border: solid rgb(64,64,64) 2px;
+  background-color: black;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.75rem;
+  position: absolute;
+  bottom: 9rem;
+  height: 4.75rem;
+  display: flex;
+}
+.floating-image {
+  height: 100%;
+}
+.floating-text-box {
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.top-text {
+  font-size: 16px;
+}
+.bottom-text {
+  font-size: 14px;
+  color: rgb(0,112,217);
+}
+.download-icon {
+  width: 42px;
+  height: 42px;
+  margin: auto;
+  margin-left: 3rem;
+  margin-right: 0rem;
+}
+
+.static-tv {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  z-index: 1;
+  position: absolute;
+}
+
+.tv-video {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+  width: 66%;
+  z-index: 0;
+}
+
+.computer-screen-container {
+  padding: 70px 0;
+  position: relative;
+}
+.computer-screen {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.stranger-things-video {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-top: 3rem;
+  z-index: 0;
+}
+
+.resize {
+  min-width: 450px;
+}
+
+.kids-picture {
+  padding: 70px 45px;
+  max-width: 100%;
+  height: auto;
+}
+
+.main-story-card {
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  padding: 75px 0;
+  margin: 0 auto;
+  font-size: 1.625rem;
+}
+
+.story-card {
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 1.625rem;
+  height: 100%;
+  width: 100%;
+}
+
+.story-flex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.main-card-title {
+  font-size: 4rem;
+  margin: 0 auto;
+  max-width: 800px;
+  font-weight: bold;
+}
+
+.card-title {
+  font-size: 3.125rem;
+  max-width: 800px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-subtitle {
+  margin: 1rem auto !important;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.our-story-card-animation {
+  background-size: 100%;
+  position: absolute;
+  width: 60%;
+  min-height: 3em;
+  padding: .5em .75em;
+  border-radius:  10px;
+  border: 2px rgba(255, 255, 255, 0.25) solid;
+}
+
+.our-story-card-animation::after {
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.stranger-card-text{
+  width: 100%;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.faq-get-started {
+  margin-bottom: 80px;
+}
+
+.footer-container {
+  padding: 70px 45px 0px;
+  margin: 0px 120px;
+}
+
+@media screen and (max-width: 1200px) {
+  .stranger-things-container {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 14px;
+  }
+  .content-card-container {
+    flex-direction: column;
+  }
+  .reverse-flex {
+    flex-direction: column-reverse;
+  }
+  .stranger-things-container-small {
+    height: 400px;
+    margin-bottom: 5rem;
+    margin-top: -2.5rem;
+  }
+  .stranger-things-container {
+    width: 400px;
+  }
+  .tv-container-small {
+    margin-top: -10rem;
+    margin-bottom: -5rem;
+    min-width: 500px;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .download-bar {
+    bottom: 4rem;
+  }
+  .content-card-container {
+    text-align: center;
+  }
+  .desktop-image-small {
+    margin-top: -5rem;
+    margin-bottom: -5rem;
+  }
+  .for-kids-small {
+    margin-top: -4rem;
+  }
+  .card-text {
+    padding: 0;
+    padding-top: 70px;
+    width: 80%;
+    margin: auto;
+  }
+  .stranger-things-container {
+    margin: 0;
+  }
+  .align-left {
+    text-align: center;
+  }
+  .kids-picture {
+    padding: 0;
+  }
+  .computer-screen-container {
+    padding: 0;
+  }
+  .footer-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .footer-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 8px;
+  }
+  .card-text {
+    padding-top: 50px;
+    width: 90%;
+  }
+  .card-subtitle {
+    font-size: 18px;
+  }
+  .animation-container {
+    min-width: auto;
+  }
+  .stranger-things-container {
+    margin: 0 -30rem;
+  }
+  .download-bar {
+    width: 274px;
+    height: 66px;
+    padding: 7px 11.2px;
+    border-radius: 12px;
+    justify-content: space-around;
+  }
+  .tv-container-small {
+    margin-top: -18rem;
+    margin-bottom: -10rem;
+    min-width: auto;
+  }
+  .desktop-image-small {
+    margin-top: -15rem;
+    margin-bottom: -10rem;
+  }
+  .for-kids-small {
+    margin-top: -15rem;
+    margin-bottom: -10rem;
+  }
+  .get-started-input-footer {
+    font-size: 16px;
+    height: 48px;
+  }
+
+}
