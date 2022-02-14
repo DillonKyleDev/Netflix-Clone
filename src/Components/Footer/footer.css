@@ -6,9 +6,7 @@
 }
 
 .flex-links {
-  width: 100%;
   overflow: hidden;
-
 }
 
 .link-list {
@@ -56,10 +54,38 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1195px) {
+  .reposition {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .link-list {
+    min-width: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .link {
+    width: 150px;
+  }
+
+  .reposition {
+    left: 0px;
+  }
 }
 
 @media screen and (max-width: 620px) {
   .reposition {
     left: 0;
+  }
+
+  .link-list {
+    min-width: 320px;
   }
 }
